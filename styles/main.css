@@ -1,0 +1,14 @@
+/* The main css file to deal with the page itself. Elements of the page have separate css files imported here. */
+
+/* Imports */
+@import url("canvas.css");
+
+
+/* Page styles */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 10px;
+}
